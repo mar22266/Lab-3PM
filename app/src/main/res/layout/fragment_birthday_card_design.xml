@@ -25,6 +25,22 @@
                 android:src="@drawable/design_1_image"
                 android:scaleType="centerCrop"
                 android:layout_margin="8dp" />
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/design1ImageView"
+                android:hint="Nombre"
+                android:padding="8dp" />
+
+            <!-- Felicitación -->
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameEditText"
+                android:hint="Felicitación"
+                android:padding="8dp" />
 
             <!-- Diseño 2 -->
             <ImageView
@@ -34,6 +50,22 @@
                 android:src="@drawable/design_2_image"
                 android:scaleType="centerCrop"
                 android:layout_margin="8dp" />
+            <EditText
+                android:id="@+id/nameEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/design2ImageView"
+                android:hint="Nombre"
+                android:padding="8dp" />
+
+            <!-- Felicitación -->
+            <EditText
+                android:id="@+id/messageEditText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameEditText"
+                android:hint="Felicitación"
+                android:padding="8dp" />
 
             <!-- Diseño 3 -->
             <ImageView
@@ -43,6 +75,22 @@
                 android:src="@drawable/design_3_image"
                 android:scaleType="centerCrop"
                 android:layout_margin="8dp" />
+            <EditText
+                android:id="@+id/nameEditText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/design3ImageView"
+                android:hint="Nombre"
+                android:padding="8dp" />
+
+            <!-- Felicitación -->
+            <EditText
+                android:id="@+id/messageEditText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameEditText"
+                android:hint="Felicitación"
+                android:padding="8dp" />
 
             <!-- Diseño 4 -->
             <ImageView
@@ -52,6 +100,22 @@
                 android:src="@drawable/design_4_image"
                 android:scaleType="centerCrop"
                 android:layout_margin="8dp" />
+            <EditText
+                android:id="@+id/nameEditText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/design4ImageView"
+                android:hint="Nombre"
+                android:padding="8dp" />
+
+            <!-- Felicitación -->
+            <EditText
+                android:id="@+id/messageEditText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameEditText"
+                android:hint="Felicitación"
+                android:padding="8dp" />
 
         </LinearLayout>
     </ScrollView>
