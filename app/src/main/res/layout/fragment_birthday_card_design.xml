@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- fragment_birthday_card_design.xml -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Diseño 1 -->
+            <ImageView
+                android:id="@+id/design1ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/design_1_image"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp" />
+
+            <!-- Diseño 2 -->
+            <ImageView
+                android:id="@+id/design2ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/design_2_image"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp" />
+
+            <!-- Diseño 3 -->
+            <ImageView
+                android:id="@+id/design3ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/design_3_image"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp" />
+
+            <!-- Diseño 4 -->
+            <ImageView
+                android:id="@+id/design4ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/design_4_image"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
