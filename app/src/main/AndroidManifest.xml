@@ -13,6 +13,89 @@
         android:theme="@style/Theme.Laboratorio03"
         tools:targetApi="31">
         <activity
+            android:name=".diseno_4_boda"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_3_boda"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_2_boda"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_1_boda"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_4_valentin"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_3_valentin"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_2_valentin"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_1_valentin"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_4_padre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_3_padre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_2_padre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_1_padre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_4_madre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_3_madre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_2_madre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_1_madre"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_4_cumple"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_3_cumple"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_2_cumple"
+            android:exported="false" />
+        <activity
+            android:name=".diseno_1_cumple"
+            android:exported="false" />
+        <activity
+            android:name=".diseno1cumple"
+            android:exported="false"
+            android:label="@string/title_activity_diseno1cumple"
+            android:theme="@style/Theme.Laboratorio03" />
+        <activity
+            android:name=".tarjetasboda"
+            android:exported="false" />
+        <activity
+            android:name=".tarjetasvalentin"
+            android:exported="false" />
+        <activity
+            android:name=".tarjetaspadre"
+            android:exported="false" />
+        <activity
+            android:name=".tarjetasmadre"
+            android:exported="false" />
+        <activity
+            android:name=".tarjetascumple"
+            android:exported="false" />
+        <activity
+            android:name=".menuprincipal"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
